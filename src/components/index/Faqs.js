@@ -4,14 +4,18 @@ import Row from 'react-bootstrap/Row'
 import Faq from './Faq'
 import { graphql, useStaticQuery } from 'gatsby'
 
-const Faqs = ({ register }) => {
+const Faqs = () => {
   const {
+    websiteYaml: { mail },
     faqsYaml: {
       header,
       faqs: [faq1, faq2, faq3, faq4],
     },
   } = useStaticQuery(graphql`
     {
+      websiteYaml {
+        mail
+      }
       faqsYaml {
         header
         faqs {
@@ -37,9 +41,9 @@ const Faqs = ({ register }) => {
           <Faq {...faq4} />
         </Row>
       </Container>
-      {register == null ? null : (
+      {mail == null ? null : (
         <div className="mt-40 text-center">
-          <a href="" className="hero-button">
+          <a href={`mailto:${mail}`} className="hero-button">
             Send us an email
           </a>
         </div>
