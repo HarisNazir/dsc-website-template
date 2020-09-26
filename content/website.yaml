@@ -1,10 +1,10 @@
 - title: 'Developer Student Club'
   description: 'Developer Student Clubs(DSC) is a Google Developers program for university students to acquire technical skills and solve problems'
-  university: 'UniversityName'
-  register: 'https://www.google.it/intl/it/forms/about/'
+  university: 'Brunel University London'
+  register: 'https://dsc.community.dev/brunel-university-london/'
   lang: 'en'
   calendar: '#'
-  mail: 'example@example.com'
+  mail: 'dsc.bruneluni@gmail.com'
   social:
     youtube: 'https://youtube.com'
     github: 'https://github.com'

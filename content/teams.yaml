@@ -1,6 +1,6 @@
-- name: John Doe
-  role: Mentor
-  img: images/teams/avatar.png
+- name: Haris Nazir
+  role: DSC Lead
+  img: images/teams/0.jpeg
   descs:
     - Mobile and Web developer
     - Open source enthusiast
@@ -10,8 +10,8 @@
     github: https://www.example.com
     linkedin: https://www.example.com
 
-- name: John Doe 2
-  role: Mentor
+- name: Rozerin Baran
+  role: DSC Core Team
   img: images/teams/avatar.png
   descs:
     - Mobile and Web developer
@@ -21,8 +21,41 @@
     twitter: https://www.example.com
     github: https://www.example.com
 
-- name: John Doe 3
-  role: Mentor
+- name: Matt B-H
+  role: DSC Core Team
+  img: images/teams/avatar.png
+  descs:
+    - Mobile and Web developer
+    - Open source enthusiast
+    - Community mentor
+  social:
+    github: https://www.example.com
+    linkedin: https://www.example.com
+
+- name: Vidhi Desai
+  role: DSC Core Team
+  img: images/teams/avatar.png
+  descs:
+    - Mobile and Web developer
+    - Open source enthusiast
+    - Community mentor
+  social:
+    github: https://www.example.com
+    linkedin: https://www.example.com
+
+- name: Petko Kolev
+  role: DSC Core Team
+  img: images/teams/avatar.png
+  descs:
+    - Mobile and Web developer
+    - Open source enthusiast
+    - Community mentor
+  social:
+    github: https://www.example.com
+    linkedin: https://www.example.com
+
+- name: Hafiza Mohammad
+  role: DSC Core Team
   img: images/teams/avatar.png
   descs:
     - Mobile and Web developer
